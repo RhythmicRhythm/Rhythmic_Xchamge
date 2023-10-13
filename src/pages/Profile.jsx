@@ -18,99 +18,74 @@ const Profile = () => {
 
           <main>
             <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
-              <h1>profle profile</h1>
-              <ol className="relative border-l border-gray-200 dark:border-gray-700">
-                <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg
-                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                    </svg>
-                  </span>
-                  <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                    Flowbite Application UI v2.0.0{" "}
-                    <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
-                      Latest
-                    </span>
-                  </h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                    Released on January 13th, 2022
-                  </time>
-                  <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                    Get access to over 20+ pages including a dashboard layout,
-                    charts, kanban board, calendar, and pre-order E-commerce
-                    &amp; Marketing pages.
-                  </p>
-                  <a
-                    href="#"
-                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-                  >
-                    <svg
-                      className="w-3.5 h-3.5 mr-2.5"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
-                      <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
-                    </svg>{" "}
-                    Download ZIP
-                  </a>
-                </li>
-                <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg
-                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                    </svg>
-                  </span>
-                  <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                    Flowbite Figma v1.3.0
-                  </h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                    Released on December 7th, 2021
-                  </time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                    All of the pages and components are first designed in Figma
-                    and we keep a parity between the two versions even as we
-                    update the project.
-                  </p>
-                </li>
-                <li className="ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg
-                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                    </svg>
-                  </span>
-                  <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                    Flowbite Library v1.2.2
-                  </h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                    Released on December 2nd, 2021
-                  </time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                    Get started with dozens of web components and interactive
-                    elements built on top of Tailwind CSS.
-                  </p>
-                </li>
-              </ol>
+              <div className="container mx-auto my-60">
+                <div>
+                  <div className="bg-white relative shadow rounded-lg w-5/6 md:w-5/6  lg:w-4/6 xl:w-3/6 mx-auto">
+                    <div className="flex justify-center">
+                      <img
+                        src="https://avatars0.githubusercontent.com/u/35900628?v=4"
+                        alt=""
+                        className="rounded-full mx-auto absolute -top-20 w-32 h-32 shadow-md border-4 border-white transition duration-200 transform hover:scale-110"
+                      />
+                    </div>
+                    <div className="mt-16">
+                      <h1 className="font-bold text-center text-3xl text-gray-900">
+                        Okubadejo Rhythm
+                      </h1>
+                      <p className="text-center text-sm text-gray-400 font-medium">
+                        UI Components Factory
+                      </p>
+
+                      <div className="my-5 px-6">
+                        <a
+                          href="#"
+                          className="text-gray-200 block rounded-lg text-center font-medium leading-6 px-6 py-3 bg-gray-900 hover:bg-black hover:text-white"
+                        >
+                          Connect with{" "}
+                          <span className="font-bold">@pantazisoft</span>
+                        </a>
+                      </div>
+
+                      <div className="w-full">
+                        <h3 className="font-medium text-gray-900 text-left px-6">
+                          Recent activites
+                        </h3>
+                        <div className="mt-5 w-full flex flex-col items-center overflow-hidden text-sm">
+                          <a
+                            href="#"
+                            className="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150"
+                          >
+                            <img
+                              src="https://avatars0.githubusercontent.com/u/35900628?v=4"
+                              alt=""
+                              className="rounded-full h-6 shadow-md inline-block mr-2"
+                            />
+                            Added new profile picture
+                            <span className="text-gray-500 text-xs">
+                              42 min ago
+                            </span>
+                          </a>
+                          <a
+                            href="#"
+                            className="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150"
+                          >
+                            <img
+                              src="https://avatars0.githubusercontent.com/u/35900628?v=4"
+                              alt=""
+                              className="rounded-full h-6 shadow-md inline-block mr-2"
+                            />
+                            Posted new article in{" "}
+                            <span className="font-bold">#Web Dev</span>
+                            <span className="text-gray-500 text-xs">
+                              49 min ago
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </main>
         </div>

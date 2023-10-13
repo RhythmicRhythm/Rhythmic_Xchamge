@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Sidebar from "../partials/Sidebar";
 import Header from "../partials/Header";
 
-const Profile = () => {
+const History = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <>
@@ -119,4 +119,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default History;

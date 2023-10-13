@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Sidebar from "../partials/Sidebar";
 import Header from "../partials/Header";
 
-const Sellcrypto = () => {
+const Sellgiftcard = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <>
@@ -20,7 +20,7 @@ const Sellcrypto = () => {
             <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
               <div className="min-h-screen bg-gray-100 p-0 sm:p-12">
                 <div className="mx-auto max-w-md px-6 py-12 bg-white border-0 shadow-lg">
-                  <h1 className="text-2xl font-bold mb-8">Xxchange Crypto</h1>
+                  <h1 className="text-2xl font-bold mb-8">Xxchange Giftcard</h1>
                   <form id="form" noValidate>
                     <div className="border p-4 rounded-lg ">
                       <div className="relative z-0 w-full mb-5">
@@ -136,4 +136,4 @@ const Sellcrypto = () => {
   );
 };
 
-export default Sellcrypto;
+export default Sellgiftcard;

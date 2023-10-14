@@ -15,6 +15,11 @@ import Paymentoptions from "./pages/Paymentoptions";
 import Contact from "./pages/Contact";
 import Changepassword from "./pages/Changepassword";
 
+import Signin from "./pages/auth/Signin";
+import Signup from "./pages/auth/SIgnup";
+import Forgotpassword from "./pages/auth/Forgotpassword";
+
+
 function App() {
   const location = useLocation();
 
@@ -27,6 +32,12 @@ function App() {
   return (
     <>
       <Routes>
+        {/* AUTH ROUTES */}
+      <Route exact path="/signin" element={<Signin />} />
+      <Route exact path="/signup" element={<Signup />} />
+      <Route exact path="/forgotpassword" element={<Forgotpassword />} />
+
+        {/* DASHBOARD ROUTES  */}
         <Route exact path="/dashboard/home" element={<Dashboard />} />
         <Route exact path="/history" element={<History />} />
         <Route exact path="/profile" element={<Profile />} />

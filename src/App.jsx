@@ -12,6 +12,8 @@ import History from "./pages/History";
 import Sellcrypto from "./pages/Sellcrypto";
 import Sellgiftcard from "./pages/Sellgiftcard";
 import Paymentoptions from "./pages/Paymentoptions";
+import Contact from "./pages/Contact";
+import Changepassword from "./pages/Changepassword";
 
 function App() {
   const location = useLocation();
@@ -30,6 +32,8 @@ function App() {
         <Route exact path="/profile" element={<Profile />} />
         <Route exact path="/paymentoptions" element={<Paymentoptions />} />
         <Route exact path="/dashboard/sellcrypto" element={<Sellcrypto />} />
+        <Route exact path="/settings/contact" element={<Contact />} />
+        <Route exact path="/settings/changepassword" element={<Changepassword />} />
         <Route
           exact
           path="/dashboard/sellgiftcard"
